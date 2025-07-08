@@ -30,30 +30,39 @@ Aplicación web desarrollada en **Django** para la gestión básica de pacientes
 ```bash
 git clone https://github.com/tu_usuario/sigec.git
 cd sigec
+```
 2. Crea y activa un entorno virtual
-bash
+```bash
 Copiar
 Editar
 python -m venv env
+```
 # Windows:
+```bash
 env\Scripts\activate
+```
 # macOS/Linux:
+```bash
 source env/bin/activate
+```
 3. Instala dependencias
-bash
+```bash
 Copiar
 Editar
 pip install -r requirements.txt
+```
 4. Aplica las migraciones (esto crea la base de datos sigec_db)
-bash
+```bash
 Copiar
 Editar
 python manage.py migrate
+```
 5. Ejecuta el servidor de desarrollo
-bash
+```bash
 Copiar
 Editar
 python manage.py runserver
+```
 🌐 Uso de la aplicación
 📄 Interfaz Web (Frontend)
 Accede a:
@@ -81,21 +90,11 @@ GET /pacientes/<id>/: Consulta un paciente por ID
 
 Ejemplo usando curl:
 
-bash
+```bash
 Copiar
 Editar
 curl http://127.0.0.1:8000/pacientes/
-🗃️ Estructura de la base de datos
-Tabla: pacientes
-
-Campo	Tipo	Restricción
-id	Entero	Clave primaria, autoincremento
-nombre	Texto	No nulo
-apellido	Texto	No nulo
-fecha_nacimiento	Fecha	Opcional
-genero	Texto	'M', 'F', 'O'
-numero_identificacion	Texto	Único, no nulo
-
+```
 ✅ Requisitos cumplidos
  Base de datos sigec_db y tabla pacientes
 
@@ -108,7 +107,3 @@ numero_identificacion	Texto	Único, no nulo
  Estilos presentables
 
  Repositorio público con instrucciones
-
-yaml
-Copiar
-Editar

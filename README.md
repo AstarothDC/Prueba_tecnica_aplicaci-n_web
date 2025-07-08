@@ -1,2 +1,2 @@
-# Prueba_tecnica_aplicaci-n_web
+# Prueba_tecnica_aplicacion_web
 aplicación web para la gestión básica de "Pacientes" en un sistema clínico simplificado.

@@ -70,7 +70,7 @@ Guardar pacientes
 
 Ver todos los pacientes guardados
 
-🧪 API REST (JSON)
+* API REST (JSON)
 Puedes acceder y probar los siguientes endpoints:
 
 GET /pacientes/: Lista todos los pacientes
@@ -82,11 +82,9 @@ GET /pacientes/<id>/: Consulta un paciente por ID
 Ejemplo usando curl:
 
 ```bash
-Copiar
-Editar
 curl http://127.0.0.1:8000/pacientes/
 ```
-✅ Requisitos cumplidos
+* Requisitos cumplidos
  Base de datos sigec_db y tabla pacientes
 
  API RESTful con endpoints GET, POST, GET/<id>

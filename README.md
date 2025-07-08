@@ -31,27 +31,27 @@ Aplicación web desarrollada en **Django** para la gestión básica de pacientes
 git clone https://github.com/tu_usuario/sigec.git
 cd sigec
 ```
-2. Crea y activa un entorno virtual
+### 2. Crea y activa un entorno virtual
 ```bash
 python -m venv env
 ```
-# Windows:
+ Windows:
 ```bash
 env\Scripts\activate
 ```
-# macOS/Linux:
+ macOS/Linux:
 ```bash
 source env/bin/activate
 ```
-3. Instala dependencias
+### 3. Instala dependencias
 ```bash
 pip install -r requirements.txt
 ```
-4. Aplica las migraciones (esto crea la base de datos sigec_db)
+### 4. Aplica las migraciones (esto crea la base de datos sigec_db)
 ```bash
 python manage.py migrate
 ```
-5. Ejecuta el servidor de desarrollo
+### 5. Ejecuta el servidor de desarrollo
 ```bash
 python manage.py runserver
 ```

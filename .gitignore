@@ -1,0 +1,21 @@
+# Entorno virtual
+env/
+venv/
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+
+# Archivos de configuración del entorno
+.env
+*.env
+
+# Archivos de VSCode / PyCharm / MacOS
+.vscode/
+.idea/
+.DS_Store
+
+# Archivos de migraciones innecesarios (opcional)
+**/migrations/*.pyc
+**/migrations/__pycache__/

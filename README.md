@@ -96,3 +96,6 @@ curl http://127.0.0.1:8000/pacientes/
  Estilos presentables
 
  Repositorio público con instrucciones
+
+ * Nota:
+ Django no necesitas escribir un script SQL manualmente, ya que se genera automáticamente a través del ORM y las migraciones, sin embargo para esta prueba se añadio el archivo sigec_db.sql para cumplir con el requisito. 

@@ -1,31 +1,33 @@
-SIGEC - Sistema de Gestión de Pacientes (Prueba Técnica)
-Aplicación web desarrollada en Django para la gestión básica de pacientes en un entorno clínico simplificado. Permite registrar, listar y consultar pacientes mediante una API REST y una interfaz HTML interactiva.
+# 🏥 SIGEC - Sistema de Gestión de Pacientes (Prueba Técnica)
 
-📌 Funcionalidades
-📋 Registrar nuevos pacientes
+Aplicación web desarrollada en **Django** para la gestión básica de pacientes en un entorno clínico simplificado. Permite registrar, listar y consultar pacientes mediante una API REST y una interfaz HTML interactiva.
 
-🔍 Ver listado de pacientes registrados
+---
 
-🌐 API RESTful para consultar, crear y obtener pacientes
+## 📌 Funcionalidades
 
-🧩 Interfaz web con HTML, CSS y JavaScript (Fetch API)
+- 📋 Registrar nuevos pacientes
+- 🔍 Ver listado de pacientes registrados
+- 🌐 API RESTful para consultar, crear y obtener pacientes
+- 🧩 Interfaz web con HTML, CSS y JavaScript (Fetch API)
+- ✅ Validación básica de formularios
 
-✅ Validación básica de formularios
+---
 
-🚀 Tecnologías usadas
-Django 4+
+## 🚀 Tecnologías usadas
 
-Django REST Framework
+- Django 4+
+- Django REST Framework
+- HTML5 + CSS3 + JavaScript (Fetch API)
+- SQLite (por defecto)
 
-HTML5 + CSS3 + JavaScript (Fetch API)
+---
 
-SQLite (por defecto)
+## 🛠️ Instalación del proyecto
 
-🛠️ Instalación del proyecto
-1. Clona el repositorio
-bash
-Copiar
-Editar
+### 1. Clona el repositorio
+
+```bash
 git clone https://github.com/tu_usuario/sigec.git
 cd sigec
 2. Crea y activa un entorno virtual
@@ -54,7 +56,7 @@ Editar
 python manage.py runserver
 🌐 Uso de la aplicación
 📄 Interfaz Web (Frontend)
-Accede a la URL:
+Accede a:
 
 arduino
 Copiar
@@ -87,22 +89,12 @@ curl http://127.0.0.1:8000/pacientes/
 Tabla: pacientes
 
 Campo	Tipo	Restricción
-id	Entero	Clave primaria, autoincremental
+id	Entero	Clave primaria, autoincremento
 nombre	Texto	No nulo
 apellido	Texto	No nulo
 fecha_nacimiento	Fecha	Opcional
-genero	Texto (M/F/O)	No nulo
+genero	Texto	'M', 'F', 'O'
 numero_identificacion	Texto	Único, no nulo
-
-🖼️ Captura de pantalla
-(Agrega aquí una imagen de tu interfaz cargada y funcionando)
-
-📤 Entrega
-🗂️ Repositorio: https://github.com/tu_usuario/sigec
-
-⏱️ Tiempo invertido: [por ejemplo, 1h 45min]
-
-📧 Enviar enlace del repo + captura a: gestionit@ipsclinicasantamaria.com
 
 ✅ Requisitos cumplidos
  Base de datos sigec_db y tabla pacientes
@@ -117,3 +109,6 @@ numero_identificacion	Texto	Único, no nulo
 
  Repositorio público con instrucciones
 
+yaml
+Copiar
+Editar
